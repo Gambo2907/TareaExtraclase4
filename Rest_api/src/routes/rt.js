@@ -1,6 +1,7 @@
 const {Router, response} = require('express');
 const router = Router();
 const Usuarios = require('../models/Usuarios');
+
 //GET
 router.get('/getUsuarios', (req,res)=>{
     Usuarios.find()

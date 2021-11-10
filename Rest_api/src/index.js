@@ -4,7 +4,8 @@ const mongoose = require('mongoose');
 
 //Connect to database
 
-mongoose.connect('mongodb://localhost:27017/');
+mongoose.connect('mongodb://localhost:27017/usuariosdb');
+const db = mongoose.connection;
 db.on('error',(err)=>{
     if(err){
         console.log(err);

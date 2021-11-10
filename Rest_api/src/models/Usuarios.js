@@ -16,6 +16,6 @@ const EsquemaUsuarios = new esquema(
     }
 )
 
-const Usuarios = mongoose.model('',EsquemaUsuarios);
+const Usuarios = mongoose.model('misusarios',EsquemaUsuarios);
 
-module.exports = esquema;
+module.exports = Usuarios;
