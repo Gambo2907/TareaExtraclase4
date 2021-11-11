@@ -10,7 +10,7 @@ const Home = () => {
         fetch('http://localhost:3000/api/getUsuarios')
         .then(res =>{
             console.log(res);
-            return res.json;
+            return res.json();
         })
         .then((data)=>{
             setUsuarios(data);
