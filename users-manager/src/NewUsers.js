@@ -7,10 +7,13 @@ const NewUsers = () =>{
 
     const handlePost = (e) => {
         e.preventDefault();
-        const newUserObj = {nombre, id,contraseña};
+        const newUserObj = {nombre, id, contraseña};
         fetch('http://localhost:3000/api/addUsuarios', {
             method : 'POST',
-            header: {"Content-Type":"application/json"},
+            headers: {
+                'Accept':'application/json',
+                'Content-Type':'application/json'
+            },
             body : JSON.stringify(newUserObj)
         })
         .then(() => {
