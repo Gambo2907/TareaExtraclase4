@@ -79,3 +79,63 @@
   padding: 8px 2px;
   border-radius: 8px;
 }
+.update-users{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.update-users label{
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+}
+.update-users input{
+  width: 100%;
+  padding: 10px 10px;
+  margin-left: 20px;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+}
+.update-users h2{
+  font-size: 20px;
+  color: #353015;
+  margin-bottom: 30px;
+}
+.update-users button{
+  background-color: chartreuse;
+  color: #353015;
+  border: 1px solid #353015;
+  margin-top: 10px;
+  padding: 8px 2px;
+  border-radius: 8px;
+}
+.delete-users{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.delete-users label{
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+}
+.delete-users input{
+  width: 100%;
+  padding: 10px 10px;
+  margin-left: 20px;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+}
+.delete-users h2{
+  font-size: 20px;
+  color: #353015;
+  margin-bottom: 30px;
+}
+.delete-users button{
+  background-color: chartreuse;
+  color: #353015;
+  border: 1px solid #353015;
+  margin-top: 10px;
+  padding: 8px 2px;
+  border-radius: 8px;
+}

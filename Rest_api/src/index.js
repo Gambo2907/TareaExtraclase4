@@ -5,7 +5,7 @@ const cors = require('cors');
 
 //Connect to database
 
-mongoose.connect('mongodb://localhost:27017/usuariosdb');
+mongoose.connect('mongodb+srv://1234:1234@tarea4.vzp0s.mongodb.net/usuariosdb?retryWrites=true&w=majority');
 const db = mongoose.connection;
 db.on('error',(err)=>{
     if(err){
